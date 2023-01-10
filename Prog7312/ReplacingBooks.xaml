@@ -1,0 +1,69 @@
+﻿<Page x:Class="Prog7312.ReplacingBooks"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Prog7312"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="ReplacingBooks"
+      x:Name="Replacingbooks"
+      
+      >
+
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="617*"/>
+            <ColumnDefinition Width="183*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image x:Name="imgBackground" Source="./Images/background.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="txtinstructions" Text="Move over the items in numerical order by click add" Foreground="White" Margin="202,496,493,173"/>
+        <Border 
+                BorderBrush="Orange"
+                BorderThickness="5"
+                CornerRadius="8,8,8,8" Grid.ColumnSpan="2"/>
+        <Image x:Name="imgPoints"  Source="./Images/points.jpg" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,10,0,0" Height="22" Width="30" Grid.Column="1" />
+        <Button Content="Add" x:Name="btnMove" HorizontalAlignment="Left" Background="Orange"   Margin="546,138,0,0" VerticalAlignment="Top" Width="76" Click="btnMove_Click"/>
+        <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Left" Margin="546,113,0,0" VerticalAlignment="Top" Width="75" Background="Orange" Click="btnReset_Click"/>
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Center" Margin="0,609,0,0" VerticalAlignment="Top" Width="76" Background="Orange" Click="btnSubmit_Click" Grid.Column="1" RenderTransformOrigin="0.841,0.695"/>
+        <ListBox x:Name="lstUnsorted" Margin="163,73,493,257">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Style.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Style.Resources>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <!--...-->
+        </ListBox>
+        <ListBox x:Name="lstSorted" Margin="692,73,250,257" Grid.ColumnSpan="2">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Style.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Style.Resources>
+                </Style>
+            </ListBox.ItemContainerStyle>
+
+        </ListBox>
+        <TextBlock x:Name="txtCheat" HorizontalAlignment="Left" Background="White" Margin="526,199,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="195" Width="116" IsEnabled="False"/>
+        <Button Content="Undo" x:Name="btnUndo" HorizontalAlignment="Left" Background="Orange" Margin="545,88,0,0" VerticalAlignment="Top" Width="76" Click="btnUndo_Click"/>
+        <Button x:Name="btnCheat" Content="Hint!" HorizontalAlignment="Left" Margin="546,163,0,0" VerticalAlignment="Top" Width="75" Background="Orange" Click="btnCheat_Click"/>
+
+        <TextBlock x:Name="txtPoints" HorizontalAlignment="Left" Margin="89,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="Transparent" Foreground="#FFFFB900" Height="21" Width="76" Grid.Column="1"/>
+        <ProgressBar x:Name="prgItem" Foreground="Orange" Maximum="10" Margin="0,568,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Height="16" Width="181" RenderTransformOrigin="0.293,-0.2" Grid.Column="1"/>
+
+
+
+
+
+
+
+    </Grid>
+
+</Page>

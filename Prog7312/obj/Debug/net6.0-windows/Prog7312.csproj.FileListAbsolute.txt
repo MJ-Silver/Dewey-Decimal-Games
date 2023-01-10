@@ -1,0 +1,64 @@
+C:\Users\msilv\source\repos\Prog7312\Prog7312\bin\Debug\net6.0-windows\Prog7312.exe
+C:\Users\msilv\source\repos\Prog7312\Prog7312\bin\Debug\net6.0-windows\Prog7312.deps.json
+C:\Users\msilv\source\repos\Prog7312\Prog7312\bin\Debug\net6.0-windows\Prog7312.runtimeconfig.json
+C:\Users\msilv\source\repos\Prog7312\Prog7312\bin\Debug\net6.0-windows\Prog7312.dll
+C:\Users\msilv\source\repos\Prog7312\Prog7312\bin\Debug\net6.0-windows\Prog7312.pdb
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.csproj.AssemblyReference.cache
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312_MarkupCompile.cache
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312_MarkupCompile.lref
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.g.resources
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.AssemblyInfoInputs.cache
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.AssemblyInfo.cs
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.csproj.CoreCompileInputs.cache
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.dll
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\refint\Prog7312.dll
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.pdb
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.genruntimeconfig.cache
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\ref\Prog7312.dll
+C:\Users\msilv\source\repos\Prog7312\Prog7312\bin\Debug\net6.0-windows\Images\replacingbooks.jpg
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312_Content.g.cs
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\ReplacingBooks.g.cs
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\ReplacingBooks.baml
+C:\Users\msilv\source\repos\Prog7312\Prog7312\bin\Debug\net6.0-windows\Images\background.jpg
+C:\Users\msilv\source\repos\Prog7312\Prog7312\bin\Debug\net6.0-windows\Images\identifyingareas.jpg
+C:\Users\msilv\source\repos\Prog7312\Prog7312\bin\Debug\net6.0-windows\Images\callingNumbers.jpg
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\identifyingAreas.g.cs
+C:\Users\msilv\source\repos\Prog7312\Prog7312\obj\Debug\net6.0-windows\identifyingAreas.baml
+C:\Users\msilv\source\repos\Prog7312\Prog7312\bin\Debug\net6.0-windows\DeweyDecimalSystem.txt
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\bin\Debug\net6.0-windows\Images\background.jpg
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\bin\Debug\net6.0-windows\Images\callingNumbers.jpg
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\bin\Debug\net6.0-windows\Images\identifyingareas.jpg
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\bin\Debug\net6.0-windows\Images\replacingbooks.jpg
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\bin\Debug\net6.0-windows\Prog7312.exe
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\bin\Debug\net6.0-windows\DeweyDecimalSystem.txt
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\bin\Debug\net6.0-windows\Prog7312.deps.json
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\bin\Debug\net6.0-windows\Prog7312.runtimeconfig.json
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\bin\Debug\net6.0-windows\Prog7312.dll
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\bin\Debug\net6.0-windows\Prog7312.pdb
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.csproj.AssemblyReference.cache
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\identifyingAreas.g.cs
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\ReplacingBooks.g.cs
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312_Content.g.cs
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312_MarkupCompile.cache
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312_MarkupCompile.lref
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\identifyingAreas.baml
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\ReplacingBooks.baml
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.g.resources
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.AssemblyInfoInputs.cache
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.AssemblyInfo.cs
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.csproj.CoreCompileInputs.cache
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.dll
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\refint\Prog7312.dll
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.pdb
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\Prog7312.genruntimeconfig.cache
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\ref\Prog7312.dll
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\callingNumbers.g.cs
+C:\Users\msilv\OneDrive - ADvTECH Ltd\Prog7312\Prog7312\obj\Debug\net6.0-windows\callingNumbers.baml

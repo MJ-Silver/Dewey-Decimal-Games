@@ -1,0 +1,10 @@
+﻿000-General Knowledge(General References or Works (encyclopedias, biographies, periodicals and journalism)
+100-Philosophy, psychology and logic
+200-Religion
+300-Social Sciences (how people live and work in society; law, government and institutions)
+400-Language (English, grammar and dictionaries)
+500-Science (Mathematics, astronomy, physics, chemistry, geology, paleontology, biology, zoology, and botany)
+600-Technology and Applied Science (medicine, engineering, agriculture, home economics, radio, TV, and aviation)
+700-Fine Arts and Recreation (architecture, sculpture, painting, music, photography and recreation)
+800-Literature (plays, poems, essays, literature in foreign languages)
+900-History and Biography (history, biography, geography and other related disciplines)

@@ -1,0 +1,167 @@
+﻿<!--   https://social.msdn.microsoft.com/Forums/vstudio/en-US/866b718e-2c54-407e-9cf3-d9d44d8a1dab/how-to-put-a-uniform-border-on-each-item-of-the-listbox?forum=wpf
+    -->
+<Page x:Class="Prog7312.identifyingAreas"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Prog7312"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="identifyingAreas">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="799*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/Images/background.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
+
+        <ListBox x:Name="lstCallNumber" Margin="120,82,839,199" BorderBrush="Black">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Margin" Value="1"/>
+                    <Setter Property="SnapsToDevicePixels" Value="True"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                                <Border BorderBrush="Black" Name="Bd" BorderThickness="1">
+                                    <ContentPresenter ContentSource="Content"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="Selector.IsSelected" Value="True">
+                                        <Setter
+                                        Property="Panel.Background"
+                                        TargetName="Bd">
+                                            <Setter.Value>
+                                                <DynamicResource ResourceKey="{x:Static SystemColors.HighlightBrushKey}"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter Property="TextElement.Foreground">
+                                            <Setter.Value>
+                                                <DynamicResource
+                                                ResourceKey="{x:Static SystemColors.HighlightTextBrushKey}"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                    <MultiTrigger>
+                                        <MultiTrigger.Conditions>
+                                            <Condition Property="Selector.IsSelected" Value="True"/>
+                                            <Condition Property="Selector.IsSelectionActive" Value="False"/>
+                                        </MultiTrigger.Conditions>
+                                        <Setter
+                                        Property="Panel.Background"
+                                        TargetName="Bd">
+                                            <Setter.Value>
+                                                <DynamicResource
+                                                ResourceKey="{x:Static SystemColors.ControlBrushKey}" />
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter
+                                        Property="TextElement.Foreground">
+                                            <Setter.Value>
+                                                <DynamicResource
+                                                ResourceKey="{x:Static SystemColors.ControlTextBrushKey}"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </MultiTrigger>
+                                    <Trigger Property="UIElement.IsEnabled" Value="False">
+                                        <Setter Property="TextElement.Foreground">
+                                            <Setter.Value>
+                                                <DynamicResource
+                                                ResourceKey="{x:Static SystemColors.GrayTextBrushKey}"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <x:Type TypeName="Visual"/>
+            <x:Type TypeName="UIElement"/>
+        </ListBox>
+
+
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="1153,501,0,0" VerticalAlignment="Top" Width="74" Background="Orange" Click="btnSubmit_Click"/>
+        <Button x:Name="btnUp" Content="Up" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" Width="75" Background="Orange" Click="btnUp_Click"/>
+        <Button x:Name="btnDown" Content="Down" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" Width="75" Background="Orange" Click="btnDown_Click"/>
+        <TextBlock x:Name="txtInfoNum" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="203,521,0,0" Width="163" Background="Transparent" TextWrapping="Wrap" Foreground="White" Text="Please Use the up and down buttons to assign Call Numbers to descriptions" Height="67"/>
+        <TextBlock x:Name="txtInfoDes" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="643,521,0,0" Width="155" Background="Transparent" Height="70" Foreground="White" TextWrapping="Wrap" Text="Please Use the up and down buttons on the right side to assign Descriptions to Call Numbers"/>
+        <Button x:Name="btnMoveUp" Content="Up" HorizontalAlignment="Left" Margin="957,159,0,0" VerticalAlignment="Top" Width="74" Background="Orange" Click="btnMoveUp_Click" />
+        <Button x:Name="btnMoveDown" Content="Down" HorizontalAlignment="Left" Margin="957,190,0,0" VerticalAlignment="Top" Width="75" Background="Orange" Click="btnMoveDown_Click"/>
+
+        <ListBox x:Name="lstDescription" Margin="489,82,321,199" BorderBrush="Black">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Margin" Value="1"/>
+                    <Setter Property="SnapsToDevicePixels" Value="True"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                                <Border BorderBrush="Black" Name="Bd" BorderThickness="1">
+                                    <ContentPresenter ContentSource="Content"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="Selector.IsSelected" Value="True">
+                                        <Setter
+                                        Property="Panel.Background"
+                                        TargetName="Bd">
+                                            <Setter.Value>
+                                                <DynamicResource ResourceKey="{x:Static SystemColors.HighlightBrushKey}"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter Property="TextElement.Foreground">
+                                            <Setter.Value>
+                                                <DynamicResource
+                                                ResourceKey="{x:Static SystemColors.HighlightTextBrushKey}"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                    <MultiTrigger>
+                                        <MultiTrigger.Conditions>
+                                            <Condition Property="Selector.IsSelected" Value="True"/>
+                                            <Condition Property="Selector.IsSelectionActive" Value="False"/>
+                                        </MultiTrigger.Conditions>
+                                        <Setter
+                                        Property="Panel.Background"
+                                        TargetName="Bd">
+                                            <Setter.Value>
+                                                <DynamicResource
+                                                ResourceKey="{x:Static SystemColors.ControlBrushKey}" />
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter
+                                        Property="TextElement.Foreground">
+                                            <Setter.Value>
+                                                <DynamicResource
+                                                ResourceKey="{x:Static SystemColors.ControlTextBrushKey}"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </MultiTrigger>
+                                    <Trigger Property="UIElement.IsEnabled" Value="False">
+                                        <Setter Property="TextElement.Foreground">
+                                            <Setter.Value>
+                                                <DynamicResource
+                                                ResourceKey="{x:Static SystemColors.GrayTextBrushKey}"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <x:Type TypeName="Visual"/>
+            <x:Type TypeName="UIElement"/>
+        </ListBox>
+
+        <Button x:Name="btnReplay" Content="Replay!" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Background="Orange" Click="btnReplay_Click"/>
+
+        <TextBlock x:Name="txtPoints" HorizontalAlignment="Left" Margin="1173,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="Transparent" Foreground="#FFFFB900" Height="21" Width="76"/>
+        <Image x:Name="imgPoints"  Source="./Images/points.jpg" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1138,-2,0,0" Height="22" Width="30" RenderTransformOrigin="2.453,1.145" />
+        <Button x:Name="btnSwap" Content="Swap!" HorizontalAlignment="Left" Margin="425,57,0,0" VerticalAlignment="Top" Width="75" Background="Orange" Click="btnSwap_Click" />
+    </Grid>
+</Page>
